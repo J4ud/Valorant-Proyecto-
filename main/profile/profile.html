@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100&family=Karla:ital,wght@0,300;0,400;0,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <label for="menu" class="menu">
+        <div class="contenedor_menu">
+            <img class="logo" src="../img/logo.png" >
+            
+            <button class="profile_button"><h1>PROFILE</h1></button>
+            <a href="../Main/lista.html">
+                <button class="agents_button">
+                    <h1>AGENTS</h1>
+                </button>
+            </a>
+    
+        </div>
+    </label>
+
+    <div class="imagen-inicial">
+        <img src="../img/killjoy wp.png">
+    </div>
+    
+   <div class="picture-container">
+         <div class="frame">
+            <label for="profile-image" class="picture">
+                <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                <label for="image-upload" id="image-button">
+                 <img id="image-preview" src="../public/images/profile picture" alt="Preview">
+                </label>
+
+            </label>
+        </div>
+    </div>
+
+    <div class="profile-text">
+     
+    </div>
+
+    <div class="profile-buttons">
+        <input type="text" id="new-name" placeholder="Nuevo Nombre" style="display: none;">
+        <input type="password" id="new-password" placeholder="Nueva Contraseña" style="display: none;">
+
+        <button class="mi">
+            Modify information
+        </button>
+        <a href="../../landing page/landing page/landing.html">
+            <button class="out" id="si">
+                Log out
+            </button>
+        </a>
+    </div>
+
+    <div class="most">
+        <h1>FAVORITES</h1>
+        <div class="f-agents">
+          
+
+        </div>
+        
+    </div>
+
+    <script src="./profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contenido-adicional {
+    background-color: #120f2e;
+    background-image: url('reina.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Ajusta el alto y el margen según tus preferencias */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+  .row {
+    display: flex;
+    overflow-x: auto; /* Agrega scroll horizontal si las cartas no caben en la pantalla */
+    text-align: center;
+  }
+  .column {
+    padding: 0.5em 0;
+    flex: 1;
+    max-width: 100%;
+    margin-right: 30px; /* Ajusta el valor de margen según tu preferencia */
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.5em;
+    color: #ffffff;
+    font-family: 'Jockey One', sans-serif;
+  }
+  .card {
+    width: 320px; /* Establece el ancho fijo que desees */
+    height: 450px; 
+    box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+    padding: 1em; /* Puedes ajustar el padding según tus necesidades */
+    border-radius: 60px;
+    color: #1f003b;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    max-width: 100%; /* Asegura que no se desborde en pantallas pequeñas */
+  }
+  
+   .img-container {
+    width: 8em;
+    height: 8em;
+    background-color: #ffffff00;
+    padding: em;
+    border-radius: 20%;
+    margin: 0 auto 2em auto;
+    overflow: visible; /* Permite que el contenido desborde */
+    position: relative; /* Añade posicionamiento relativo al contenedor */
+    
+  }
+
+ .cards-container{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0; /* Alinea el section a la derecha */
+  text-align: center;
+  width: 52%;
+  margin-right: 80px;
+  
+  flex: 1;
+ }
+  .card img {
+    width: 100%;
+    border-radius: 50%;
+    
+  }
+  .card h3 {
+    font-weight: 500;
+  }
+  .card p {
+    font-weight: 300;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+    color: #000;
+  }
+  .icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.4em;
+  }
+  
+
+  .card:hover .img-container {
+    transform: scale(1.15);
+  }
+
+  
+
+  .outer-container {
+    display: flex;
+    background-color: #ffffff00;
+    color: #ffffff;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    /* Añade margen derecho para dejar espacio para el contenido de texto */
+    margin-right: 5%; /* Por ejemplo, puedes ajustar el valor del margen según tus necesidades */
+}
+
+  .left-text {
+    align-items: center;
+    padding: 1em;
+    margin-left: 30px;
+    
+  }
+  
+  .left-text p {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+  }
+  
+    
+  
+ 
+  

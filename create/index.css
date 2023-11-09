@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fondo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 58rem;
+  background-image: url(https://images.hdqwalls.com/wallpapers/valorant-key-art-phoenix-and-jett-4k-v5.jpg);
+  background-size: cover;
+  justify-content: space-between;
+}
+.texto-fondo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.color {
+  color: white;
+}
+
+.sesenta {
+  font-size: 130px;
+  opacity: 60%;
+}
+.cuarenta {
+  font-size: 110px;
+  opacity: 40%;
+}
+.treinta {
+  font-size: 90px;
+  opacity: 30%;
+}
+.veinte {
+  font-size: 70px;
+  opacity: 20%;
+}
+.cuadro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 75px;
+  right: 90px;
+  height: 700px;
+  width: 630px;
+  background-color: rgb(176, 24, 24);
+  border-radius: 40px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.logo {
+  width: 130px;
+  height: 85px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.txt {
+  color: white;
+  font-size: 23px;
+}
+
+/* clases de dentro del cuadro*/
+.size {
+  font-size: 40pt;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.gmail {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.size2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20pt;
+  margin-left: 5px;
+}
+.escribe {
+  width: 100%;
+  height: 45px;
+  border-radius: 20px;
+  border-color: transparent;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 8px 16px;
+}
+.size3 {
+  font-size: 15pt;
+  margin-bottom: 30px;
+}
+.circulos {
+  display: flex;
+}
+.circ-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: azure;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+.foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.button {
+  width: 160px;
+  height: 70px;
+  background-color: azure;
+  border-radius: 20px;
+  border-color: transparent;
+  margin-top: 30px;
+}
+.flecha {
+  width: 90px;
+  height: 65px;
+}
+.size4 {
+  font-size: 15pt;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+/*PAGINA 2*/
+.nacimiento {
+  width: 50%;
+  height: 40px;
+  border-radius: 50px;
+  border-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 8px 16px;
+}
